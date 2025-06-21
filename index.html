@@ -1,31 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SunnyStay B&B</title>
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body class="bg-yellow-50 text-gray-800 font-sans">
-    <header class="bg-orange-200 p-6 text-center">
-      <h1 class="text-4xl font-bold text-orange-900">Welcome to SunnyStay B&B</h1>
-      <p class="text-lg mt-2">A cozy escape for your next adventure 🌞</p>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SunnyStay B&B</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-yellow-50 text-gray-900 font-sans">
 
-    <main class="p-6">
-      <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div class="bg-white rounded-xl shadow-md overflow-hidden">
-          <img src="https://source.unsplash.com/400x250/?bedroom" alt="Room" class="w-full">
-          <div class="p-4">
-            <h2 class="text-xl font-semibold text-orange-700">Cozy Queen Room</h2>
-            <p class="text-sm mt-2">Includes breakfast, wifi, and mountain views.</p>
-            <button class="mt-4 bg-orange-400 hover:bg-orange-500 text-white px-4 py-2 rounded">
-              Book Now
-            </button>
-          </div>
+  <!-- Hero Header -->
+  <header class="bg-orange-200 p-10 text-center">
+    <h1 class="text-5xl font-extrabold text-orange-800">SunnyStay B&B</h1>
+    <p class="text-lg mt-4">Your cozy getaway starts here 🌞</p>
+  </header>
+
+  <!-- Rooms Section -->
+  <section class="p-8">
+    <h2 class="text-3xl font-bold text-center text-orange-700 mb-8">Our Rooms</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Room 1 -->
+      <div class="bg-white shadow-lg rounded-xl overflow-hidden">
+        <img src="https://source.unsplash.com/400x250/?bedroom,cozy" alt="Queen Room" class="w-full">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold text-orange-700">Cozy Queen Room</h3>
+          <p class="text-sm mt-2">Perfect for couples. Includes breakfast, wifi, and garden views.</p>
+          <button class="mt-4 bg-orange-400 hover:bg-orange-500 text-white px-4 py-2 rounded">
+            Book Now
+          </button>
         </div>
-      </section>
-    </main>
-  </body>
+      </div>
+      <!-- Room 2 -->
+      <div class="bg-white shadow-lg rounded-xl overflow-hidden">
+        <img src="https://source.unsplash.com/400x250/?bedroom,bright" alt="Deluxe Room" class="w-full">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold text-orange-700">Deluxe Suite</h3>
+          <p class="text-sm mt-2">Spacious with a private balcony, king bed, and ocean views.</p>
+          <button class="mt-4 bg-orange-400 hover:bg-orange-500 text-white px-4 py-2 rounded">
+            Book Now
+          </button>
+        </div>
+      </div>
+      <!-- Room 3 -->
+      <div class="bg-white shadow-lg rounded-xl overflow-hidden">
+        <img src="https://source.unsplash.com/400x250/?hotelroom,relaxing" alt="Family Room" class="w-full">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold text-orange-700">Family Room</h3>
+          <p class="text-sm mt-2">Comfort for all. Two queen beds, kitchenette, and kids' play corner.</p>
+          <button class="mt-4 bg-orange-400 hover:bg-orange-500 text-white px-4 py-2 rounded">
+            Book Now
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Local Guide Section -->
+  <section class="bg-white py-12 px-8">
+    <h2 class="text-3xl font-bold text-center text-orange-700 mb-8">Local Highlights</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="text-center">
+        <img src="https://source.unsplash.com/200x150/?cafe,cozy" alt="Local Café" class="mx-auto rounded-lg shadow-md mb-4">
+        <h4 class="font-semibold text-lg">Sunny Café</h4>
+        <p class="text-sm">Enjoy coffee and pastries just two blocks away.</p>
+      </div>
+      <div class="text-center">
+        <img src="https://source.unsplash.com/200x150/?hiking,trail" alt="Hiking Trail" class="mx-auto rounded-lg shadow-md mb-4">
+        <h4 class="font-semibold text-lg">Maplewood Trail</h4>
+        <p class="text-sm">Scenic trails for hiking and biking right behind the B&B.</p>
+      </div>
+      <div class="text-center">
+        <img src="https://source.unsplash.com/200x150/?winery" alt="Winery" class="mx-auto rounded-lg shadow-md mb-4">
+        <h4 class="font-semibold text-lg">Riverbend Winery</h4>
+        <p class="text-sm">Free tastings every weekend—5 minutes away!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Guest Reviews Section -->
+  <section class="bg-orange-100 py-12 px-8">
+    <h2 class="text-3xl font-bold text-center text-orange-800 mb-8">What Guests Are Saying</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <p class="italic">"Absolutely loved our stay! The room was spotless, and the homemade breakfast was delicious."</p>
+        <p class="mt-4 font-bold">– Sarah M.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <p class="italic">"Felt like home. The location is perfect and the hosts were so kind and welcoming."</p>
+        <p class="mt-4 font-bold">– Carlos R.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking CTA -->
+  <section class="text-center py-12 bg-orange-300">
+    <h2 class="text-3xl font-bold text-white">Ready to Book Your Stay?</h2>
+    <p class="text-white mt-2">Click below to reserve your room and start your adventure!</p>
+    <button class="mt-6 bg-white text-orange-700 font-semibold px-6 py-3 rounded-lg hover:bg-yellow-100">
+      Book Now
+    </button>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-orange-200 text-center p-4 text-sm text-orange-800">
+    © 2025 SunnyStay B&B. All rights reserved.
+  </footer>
+
+</body>
 </html>
