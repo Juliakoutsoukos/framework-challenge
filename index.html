@@ -5,8 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SunnyStay B&B</title>
   <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    h1, h2, h3, h4 {
+      font-family: 'Playfair Display', serif;
+    }
+  </style>
 </head>
-<body class="bg-yellow-50 text-gray-900 font-sans">
+<body class="bg-yellow-50 text-gray-900">
 
   <!-- Hero Header -->
   <header class="bg-orange-200 p-10 text-center">
@@ -20,7 +31,7 @@
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
       <!-- Room 1 -->
       <div class="bg-white shadow-lg rounded-xl overflow-hidden">
-        <img src="https://source.unsplash.com/400x250/?bedroom,cozy" alt="Queen Room" class="w-full">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Queen Room" class="w-full h-48 object-cover">
         <div class="p-4">
           <h3 class="text-xl font-semibold text-orange-700">Cozy Queen Room</h3>
           <p class="text-sm mt-2">Perfect for couples. Includes breakfast, wifi, and garden views.</p>
@@ -31,7 +42,7 @@
       </div>
       <!-- Room 2 -->
       <div class="bg-white shadow-lg rounded-xl overflow-hidden">
-        <img src="https://source.unsplash.com/400x250/?bedroom,bright" alt="Deluxe Room" class="w-full">
+        <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227" alt="Deluxe Room" class="w-full h-48 object-cover">
         <div class="p-4">
           <h3 class="text-xl font-semibold text-orange-700">Deluxe Suite</h3>
           <p class="text-sm mt-2">Spacious with a private balcony, king bed, and ocean views.</p>
@@ -42,7 +53,7 @@
       </div>
       <!-- Room 3 -->
       <div class="bg-white shadow-lg rounded-xl overflow-hidden">
-        <img src="https://source.unsplash.com/400x250/?hotelroom,relaxing" alt="Family Room" class="w-full">
+        <img src="https://images.unsplash.com/photo-1600047503490-4f8b1bdfd3c0" alt="Family Room" class="w-full h-48 object-cover">
         <div class="p-4">
           <h3 class="text-xl font-semibold text-orange-700">Family Room</h3>
           <p class="text-sm mt-2">Comfort for all. Two queen beds, kitchenette, and kids' play corner.</p>
@@ -59,17 +70,17 @@
     <h2 class="text-3xl font-bold text-center text-orange-700 mb-8">Local Highlights</h2>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
       <div class="text-center">
-        <img src="https://source.unsplash.com/200x150/?cafe,cozy" alt="Local Café" class="mx-auto rounded-lg shadow-md mb-4">
+        <img src="https://images.unsplash.com/photo-1533777324565-a040eb52fac6" alt="Local Café" class="mx-auto rounded-lg shadow-md mb-4 h-36 object-cover">
         <h4 class="font-semibold text-lg">Sunny Café</h4>
         <p class="text-sm">Enjoy coffee and pastries just two blocks away.</p>
       </div>
       <div class="text-center">
-        <img src="https://source.unsplash.com/200x150/?hiking,trail" alt="Hiking Trail" class="mx-auto rounded-lg shadow-md mb-4">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="Hiking Trail" class="mx-auto rounded-lg shadow-md mb-4 h-36 object-cover">
         <h4 class="font-semibold text-lg">Maplewood Trail</h4>
         <p class="text-sm">Scenic trails for hiking and biking right behind the B&B.</p>
       </div>
       <div class="text-center">
-        <img src="https://source.unsplash.com/200x150/?winery" alt="Winery" class="mx-auto rounded-lg shadow-md mb-4">
+        <img src="https://images.unsplash.com/photo-1603133872871-5d2b3f2116b1" alt="Winery" class="mx-auto rounded-lg shadow-md mb-4 h-36 object-cover">
         <h4 class="font-semibold text-lg">Riverbend Winery</h4>
         <p class="text-sm">Free tastings every weekend—5 minutes away!</p>
       </div>
